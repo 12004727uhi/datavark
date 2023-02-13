@@ -89,7 +89,6 @@ class ReportsView(SingleTableMixin, View):
     paginator_class = LazyPaginator
 
     def get(self, *args, **kwargs):
-        logger.info(GetData())
         report_table = self._report_table_class(GetData())
         RequestConfig(
             self.request, paginate={"per_page": d_set["records_to_display_per_page"]}
