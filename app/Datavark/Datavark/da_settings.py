@@ -141,9 +141,9 @@ DA_SETTINGS = {
     "records_to_display_per_page": 25,  # number of records per page to display to user in data view
     "restrict_duplicate_location_extractions": True,  # restrict extracting both cities & states as separate entities, etc
     "exclude_junked": True, # whether to exclude records marked as junked
-    "exclude_no_date": True,  # whether to exclude record with no date data from display & export
+    "exclude_no_date": False,  #! whether to exclude record with no date data from display & export
     "exclude_no_time": False,  # whether to exclude record with no time data from display & export
-    "exclude_no_loc": True,  # whether to exclude records with no location data from display & export
+    "exclude_no_loc": False,  # !whether to exclude records with no location data from display & export
     "exclude_no_type": False,  # whether to exclude records with no types data from display & export
     "exclude_no_color": False,  # whether to exclude records with no colours data from display & export
     "csv_export_path": os.path.join(
