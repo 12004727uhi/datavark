@@ -154,7 +154,7 @@ DA_SETTINGS = {
     "exclude_junked": True,  # whether to exclude records marked as junked
     "exclude_no_date": True,  # whether to exclude record with no date data from display & export
     "exclude_no_time": False,  # whether to exclude record with no time data from display & export
-    "exclude_no_loc": False,  # !whether to exclude records with no location data from display & export
+    "exclude_no_loc": True,  # whether to exclude records with no location data from display & export
     "exclude_no_type": False,  # whether to exclude records with no types data from display & export
     "exclude_no_color": False,  # whether to exclude records with no colours data from display & export
     "csv_export_path": os.path.join(
